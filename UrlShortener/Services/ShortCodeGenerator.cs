@@ -26,6 +26,7 @@
             { "apple.com", "apl" },
             { "cms.greenwich.edu.vn", "cms" },
             { "ap.greenwich.edu.vn", "ap" },
+            { "quillbot.com", "qb" }
         };
 
         public string Generate(string originalUrl)
@@ -37,8 +38,24 @@
                 {
                     return $"{codePrefix}{Guid.NewGuid().ToString("N")[..4]}";
                 }
-            }
+                else
+                {
+                    var domainPart = host.Length >= 3 ? host[..3] : host;
 
+                    // Lấy subpath nếu có
+                    var pathPart = uri.AbsolutePath.Trim('/');
+                    string subPart = "";
+                    if (!string.IsNullOrEmpty(pathPart))
+                    {
+                        subPart = pathPart.Length >= 3 ? pathPart[..3] : pathPart;
+                    }
+
+                    var rand = new Random();
+                    var randNum = rand.Next(100, 999);
+
+                    return $"{domainPart}{subPart}{randNum}";
+                }
+            }
             return Guid.NewGuid().ToString("N")[..6];
         }
     }

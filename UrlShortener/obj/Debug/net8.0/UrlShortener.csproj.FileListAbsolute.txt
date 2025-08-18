@@ -171,8 +171,8 @@ C:\Users\Long\source\repos\UrlShortener\bin\Debug\net8.0\FluentValidation.AspNet
 C:\Users\Long\source\repos\UrlShortener\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\appsettings.json
-C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.staticwebassets.endpoints.json
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.staticwebassets.runtime.json
+C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.staticwebassets.endpoints.json
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.exe
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.deps.json
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\bin\Debug\net8.0\UrlShortener.runtimeconfig.json
@@ -334,10 +334,10 @@ C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShort.46B0166A.Up2Date
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.dll
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\refint\UrlShortener.dll
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.pdb
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\UrlShortener.genruntimeconfig.cache
 C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\ref\UrlShortener.dll
+C:\Users\Long\OneDrive\Documents\GitHub\UrlShortener\UrlShortener\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
