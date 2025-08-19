@@ -50,7 +50,6 @@ namespace UrlShortener.Controllers
             if (string.IsNullOrWhiteSpace(fullUrl))
                 return BadRequest("Short URL cannot be empty.");
 
-            // Lấy shortCode từ full URL
             var uri = new Uri(fullUrl);
             var shortCode = uri.AbsolutePath.Trim('/');
 
@@ -58,7 +57,6 @@ namespace UrlShortener.Controllers
             if (link == null)
                 return NotFound();
 
-            // Kiểm tra trùng ShortCode
             bool exists = await _context.ShortUrls
                 .AnyAsync(l => l.ShortCode == shortCode && l.Id != id);
             if (exists)
