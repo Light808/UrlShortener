@@ -33,13 +33,11 @@ namespace UrlShortener.Controllers
 
             var link = await _context.ShortUrls
                 .FirstOrDefaultAsync(m => m.Id == id);
-
             if (link == null)
                 return NotFound();
 
             _context.ShortUrls.Remove(link);
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
 
